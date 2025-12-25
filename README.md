@@ -128,6 +128,7 @@ This is an **environment requirement**, not a Verilog rule.
 #### Menu (recommended)
 
 ```
+chmod +x ./menu.sh # run only only once at first setup
 ./menu.sh
 ```
 
