@@ -64,6 +64,7 @@ wave:
 # Cleanup
 # ==============================
 clean:
-	rm -rf sim/build/* sim/waves/*
+	find sim/build sim/waves -mindepth 1 ! -name .gitignore -exec rm -rf {} +
+
 
 .PHONY: all lint build run wave clean

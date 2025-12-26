@@ -1,7 +1,7 @@
-# Simulation outputs
-sim/build/
-sim/waves/
-
 # Verilog artifacts
 *.vvp
 *.vcd
+*.gtkw
+
+# vscode
+.vscode/

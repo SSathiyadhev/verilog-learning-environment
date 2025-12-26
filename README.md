@@ -127,8 +127,15 @@ This is an **environment requirement**, not a Verilog rule.
 
 #### Menu (recommended)
 
+Before running the menu for the first time, make it executable (run once):
+
+```bash
+chmod +x menu.sh
 ```
-chmod +x ./menu.sh # run only only once at first setup
+
+Run the menu:
+
+```bash
 ./menu.sh
 ```
 
@@ -164,7 +171,8 @@ menu.sh     Interactive runner
 Makefile    Build control
 ```
 
-The `sim/` directory is auto-generated and disposable.
+The `sim/` directory is part of the repository structure.
+Generated files inside `sim/build/` and `sim/waves/` are ignored by Git.
 
 ---
 
